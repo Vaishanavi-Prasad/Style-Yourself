@@ -2457,7 +2457,7 @@ ul {
 /* line 7, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_banner.scss */
 .banner_part .single_banner_slider .banner_text {
   display: table;
-  width: 100%;
+  width: 50%;
   height: 820px;
 }
 
@@ -6227,7 +6227,7 @@ del {
 
 /* line 93, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_elements.scss */
 h1 {
-  font-size: 100px;
+  font-size: 50px;
   text-align: center;
   font-style: italic;
 }
