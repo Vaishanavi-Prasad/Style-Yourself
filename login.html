@@ -28,12 +28,13 @@
 
 <body class="bg-white">
     <!--::header part start::-->
+    <!--::header part start::-->
     <header class="main_menu home_menu">
         <div class="container-fluid">
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-11">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                       <a class="navbar-brand" href="index.html"> <img src= img/logo.jpeg alt="logo" > </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +46,7 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="index.html">Home</a>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <!--<li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Shop
@@ -55,26 +56,26 @@
                                         <a class="dropdown-item" href="single-product.html">product details</a>
                                         
                                     </div>
-                                </li>
+                                </li>-->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         pages
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
-                                        <a class="dropdown-item" href="login.html"> 
-                                            login
+                                        <a class="dropdown-item" href="about.html"> 
+                                            About
                                             
                                         </a>
-                                        <a class="dropdown-item" href="tracking.html">tracking</a>
-                                        <a class="dropdown-item" href="checkout.html">product checkout</a>
+                                        <a class="dropdown-item" href="#">Login</a>
+                                        <!--<a class="dropdown-item" href="checkout.html">product checkout</a>
                                         <a class="dropdown-item" href="cart.html">shopping cart</a>
                                         <a class="dropdown-item" href="confirmation.html">confirmation</a>
-                                        <a class="dropdown-item" href="elements.html">elements</a>
+                                        <a class="dropdown-item" href="elements.html">elements</a>-->
                                     </div>
                                 </li>
                                 
-                                <li class="nav-item dropdown">
+                                <!--<li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_2"
                                         role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         blog
@@ -83,12 +84,17 @@
                                         <a class="dropdown-item" href="blog.html"> blog</a>
                                         <a class="dropdown-item" href="single-blog.html">Single blog</a>
                                     </div>
-                                </li>
+                                </li>-->
                                 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
+                                 
+
+
+                            
                             </ul>
+
                         </div>
                         <div class="hearer_icon d-flex">
                             <div class="dropdown cart">
@@ -156,7 +162,7 @@
                         <div class="login_part_form_iner">
                             <h3>Welcome Back ! <br>
                                 Please Sign in now</h3>
-                            <form class="row contact_form" action="#" method="post" novalidate="novalidate">
+                            <form class="row contact_form" action="https://formspree.io/xeqrkavd" method="POST" class="form-horizontal" role="form">
                                 <div class="col-md-12 form-group p_star">
                                     <input type="text" class="form-control" id="name" name="name" value=""
                                         placeholder="Username">
@@ -170,10 +176,14 @@
                                         <input type="checkbox" id="f-option" name="selector">
                                         <label for="f-option">Remember me</label>
                                     </div>
+                                    
+                                    <input type="hidden" name="_subject" value="New email from Feedback form" class="form-control">
+                                    
+                                    </div>
                                     <button type="submit" value="submit" class="btn_3">
                                         log in
                                     </button>
-                                    <a class="lost_pass" href="#">forget password?</a>
+                                    
                                 </div>
                             </form>
                         </div>
@@ -218,7 +228,7 @@
     <!--::subscribe_area part end::-->
 
     <!--::footer_part start::-->
-    <footer class="footer_part">
+     <footer class="footer_part">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-lg-2">
@@ -228,7 +238,7 @@
                             <li><a href="#">Male</a></li>
                             <li><a href="#">Female</a></li>
                             <li><a href="#">Shoes</a></li>
-                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Extra</a></li>
                         </ul>
                     </div>
                 </div>
@@ -247,31 +257,22 @@
                     <div class="single_footer_part">
                         <h4>Address</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#">200, Green block, NewYork</a></li>
-                            <li><a href="#">+10 456 267 1678</a></li>
-                            <li><span>contact89@winter.com</span></li>
+                            <li><a href="#">Radison Blue, Kolkata India</a></li>
+                            <li><a href="#">9162193860</a></li>
+                            <li><span>vaishanaviprasad1118@gmail.com</span></li>
+
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="single_footer_part">
-                        <h4>Newsletter</h4>
-                        <div id="mc_embed_signup">
-                            <form target="_blank"
-                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                method="get" class="subscribe_form relative mail_part">
-                                <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                                    class="placeholder hide-on-focus" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = ' Email Address '">
-                                <button type="submit" name="submit" id="newsletter-submit"
-                                    class="email_icon newsletter-submit button-contactForm">subscribe</button>
-                                <div class="mt-10 info"></div>
-                            </form>
-                        </div>
+                        <h4>Contact</h4>
+                        <p>My personal Facebook, Instagram, Linkedin below.</p>
+                        
                         <div class="social_icon">
-                            <a href="#"><i class="ti-facebook"></i></a>
-                            <a href="#"><i class="ti-twitter-alt"></i></a>
-                            <a href="#"><i class="ti-instagram"></i></a>
+                            <a href="https://www.facebook.com/vaishanavi.vaish/"><i class="ti-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/vaishanavi-prasad-3205581a7/"><i class="ti-linkedin"></i></a>
+                            <a href="https://www.instagram.com/vaishanavi_ii/?hl=en"><i class="ti-instagram"></i></a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +281,7 @@
                 <div class="col-lg-12">
                     <div class="copyright_text">
                         <P><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> StyleYouself with Vaishanavi Prasad <i  aria-hidden="true"></i> <a href="https://colorlib.com" target="_blank"></a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
                     </div>
                 </div>
