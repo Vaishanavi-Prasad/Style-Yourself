@@ -7,15 +7,15 @@
 }
 
 /* line 10, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_extends.scss */
-.form-contact .form-group .btn_1 {
+/*.form-contact .form-group .btn_1 {
   background-image: linear-gradient(to left, #fff 0%, #fff 51%, #fff 100%);
-}
+}*/
 
 /**************** extend css start ****************/
 /**************** common css start ****************/
 /* line 4, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_common.scss */
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Oxygen", sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -191,7 +191,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Oxygen", sans-serif;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -270,6 +270,8 @@ button:focus,
 /* line 183, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_common.scss */
 .section_tittle {
   margin-bottom: 80px;
+  font-family: "Lora";
+
 }
 
 @media (max-width: 991px) {
@@ -336,7 +338,7 @@ button:focus,
   color: #556172;
   text-transform: capitalize;
   line-height: 30px;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Lora", sans-serif;
 }
 
 @media (max-width: 576px) {
@@ -2145,6 +2147,7 @@ ul {
 .main_menu .navbar-brand {
   padding-top: 0rem;
   padding-bottom: 0px;
+  size: 50%;
 }
 
 /* line 7, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss */
@@ -2440,10 +2443,14 @@ ul {
 /* line 2, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_banner.scss */
 .banner_part {
   position: relative;
-  background-color: #dde5e8;
-  background-image: url("img/banner_img.jpg");
-  background-position: center;
+  background-color: white;
+  background-image: url("img/banner_img.png");
+  background-position: right;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .jumbotron {
+
   background-size: cover;
 }
 
@@ -2489,7 +2496,7 @@ ul {
 
 /* line 28, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_banner.scss */
 .banner_part .single_banner_slider .banner_text h1 {
-  font-size: 100px;
+  font-size: 50px;
   text-transform: capitalize;
   font-weight: 700;
   line-height: 110px;
@@ -2617,6 +2624,16 @@ ul {
   content: "";
   background-color: #000;
 }
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+ 
+
 
 /* line 114, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_banner.scss */
 .banner_part .btn_2 {
@@ -6210,7 +6227,9 @@ del {
 
 /* line 93, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_elements.scss */
 h1 {
-  font-size: 36px;
+  font-size: 100px;
+  text-align: center;
+  font-style: italic;
 }
 
 /* line 97, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_elements.scss */
@@ -7837,13 +7856,18 @@ h6 {
   border-radius: 0;
   color: #000;
   display: flex;
-  align-items: center;
+  align-items: right;
+}
+ #main-content .container .btn_1{
+
+ align-items: center;
 }
 
 @media (max-width: 991px) {
   /* line 55, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss */
   .form-contact .form-group .btn_1 {
     margin-bottom: 20px;
+    align-items: center;
   }
 }
 
@@ -7858,18 +7882,21 @@ h6 {
   background-size: 200% auto;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  align-items: center;
 }
 
 /* line 77, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss */
 .form-contact .form-group .btn_1:hover {
   border: 1px solid #2f7dfc;
   color: #2f7dfc !important;
+  align-items: center;
 }
 
 /* line 80, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss */
 .form-contact .form-group .btn_1:hover i {
   color: #2f7dfc;
   color: #fff !important;
+  align-items: center;
 }
 
 /* line 88, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss */
